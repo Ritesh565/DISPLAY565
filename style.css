@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+   width: 100%;
+    height: 40vh;
+    
+    background-color: #fde6ee;
+    display: flex;
+   align-items: center; 
+   justify-content: center;
+    
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.row{
+    width: 80%;
+    margin: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.column{
+    flex-basis:30%;
+    position: relative;
+    
+}
+
+.info{
+    width: 70%;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 3px;
+    background: #001115;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -45px;
+    border-radius: 20%;
+}
+
+.info p {
+    font-size: 12px;
+    margin: 3px 0px;
+
+}
+
+.icons .fab{
+    font-size: 15px;
+    padding: 5px 2px;
+    cursor: pointer;
+}
+
+.column img{
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30%;
+    padding: 15px;
+}
+
+.fa-facebook{
+    color: #5088fb;
+}
+
+.fa-youtube{
+    color: #ff0000;
+}
+
+.fa-twitter{
+    color: #1da1f2;
+}
+
+.fa-instagram{
+    color: #e95950;
+}
+
+.pic{
+    filter: grayscale(100%);
+
+}
+
+.icons{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+.column:hover .icons{
+      max-height: 100px;
+}
+
+.layer{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-bottom: 2px solid red;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+.column:hover .layer{
+      max-height: 155px;  
+}
+
+.alumni{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    border-radius: 40px;
+    width: auto;
+    border: 2px solid black;
+    position: relative;
+    margin: 15px;
+    width: 500px;
+    left: 400px;
+    
+}
+
+.containers{
+    width: 100%;
+     height: 40vh;
+     
+     background-color: #add849;
+     display: flex;
+    align-items: center; 
+    justify-content: center;
+     
+     background-size: cover;
+     object-fit: cover;
+     
+}
+
+.containerss{
+    width: 100%;
+     height: 40vh;
+     
+     background-color: #9d85e0;
+     display: flex;
+    align-items: center; 
+    justify-content: center;
+     
+     background-size: cover;
+     object-fit: cover;
+}
+
+.containersss{
+    width: 100%;
+     height: 40vh;
+     
+     background-color: #70d1a0;
+     display: flex;
+    align-items: center; 
+    justify-content: center;
+     
+     background-size: cover;
+     object-fit: cover;
+}
+
+.under{
+padding: 100px;
+}
+
